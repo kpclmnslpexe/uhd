@@ -1,3 +1,4 @@
+var oT = &quot;<b:eval expr='data:post.title'/>&quot;
 var old_T = oT.replace(/ 3840x2160| 7680x4320|,/g,'');
 var t_n = old_T.match(/#\d*[.]*\d*/g); 
 if(t_n === null){ var t_n = '' };
